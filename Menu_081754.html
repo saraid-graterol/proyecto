@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="container">
+    <div class="sidebar">
+      <div class="side-hide">
+      
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+
+      <img src="unetrans1.png" width="120" >
+      <ul>
+        <li><a href="#">Usuario</a></li>
+        <li><a href="#">Cursos</a></li>
+        <li><a href="#">Estudiante</a>
+
+        </li>
+        <li><a href="#">Control de Estudios</a></li>
+      </ul>
+
+    </div>
+
+    <div class="content">
+      <h2>Bienvenido</h2>
+      <p></p>
+      <p></p>
+
+
+      <button>Mostrar Menu</button>
+    </div>
+
+  </section>
+
+<!-- JS Script -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<script>
+
+  // Muestra SideBar
+  $('button').on('click', function() {
+    $(".container").toggleClass('show');
+  })
+
+  // Oculta SideBar
+  $('.side-hide').on('click', function() {
+    $(".container").toggleClass('show');
+  });
+</script>
+
+</body>
+</html>

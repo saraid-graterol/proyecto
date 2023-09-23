@@ -1,0 +1,113 @@
+*{
+   box-sizing:border-box;
+   font-size: 16px;
+}
+
+body  {
+    min-width: 100%;
+    min-height: 100vh;
+        margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-back {
+    background: url(../img/wallpaperbetter.jpg);
+    position: absolute;
+    transform: rotate(150deg) translate(0px,50%);
+    top: 0px;
+    width: 200%;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    height: 530px;
+    margin-inline: 60px;
+    z-index: 10;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 32px;
+    color: #4db8a9;
+    font-weight: 600;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border: 1px #eee solid;
+    background-color: #eee;
+    box-shadow: 0px 4px 10px rgba(0,0, 0,0.5);
+    border-radius: 8px;
+
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 4px;
+    outline:none;
+    background-color: #f4f8f7;
+    border: none;
+}
+
+input:focus {
+    border: 1px solid #3aada3;
+}
+
+.input-box{
+    margin-bottom: 16px;
+    display:flex;
+}
+
+.input-box div:nth-child(1) {
+    margin-right: 16px;
+}
+.content-input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.img-intt {
+    background:url(../img/intt.jpg) ;
+    background-repeat: no-repeat;
+    width: 50%;
+background-position:center;  
+background-size: contain;
+background-position-x: right;  
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button{
+    background-color:#3aada3 ;
+    color: wheat;
+    border: none;
+    font-weight: 600;
+    padding: 10px 45px;
+    border-radius: 20px;
+}
+
+ button:nth-child(1) {
+    margin-right: 16px;
+}

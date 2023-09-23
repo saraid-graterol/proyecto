@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>REGISTRO DE ESTUDIANTE</title>
+    <link rel="stylesheet" href="./css/registro-estudiante.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+	<section class="img-back"></section>
+	<div class="container">
+		<section class="img-intt"> </section>
+		<form>
+		<h1>Registrar estudiantes</h1>
+
+		<div  class="input-box">
+			<div>
+				<label for="nombre">Nombre</label>
+				<input placeholder="Maria" id="nombre" type="txt" name="name"> 
+			</div>
+			<div>
+				<label for="apelllido">Apellido</label>
+				<input placeholder="Rodriguez" id="apelllido" type="txt" name="ape">
+			</div>
+		</div>
+
+		<div class="input-box">
+			<div class="content-input">
+				<label for="fn">Fecha de nacimiento</label>
+				<input  id="fn" type="date" name="fnaci">
+			</div>
+			<div class="content-input">
+				<label for="cedu">Numero de cedula</label>
+				<input placeholder="29.511.510" id="cedu" type="num" name="ced">
+			</div>
+		</div>
+		
+		<div class="input-box">
+			<div class="content-input">
+				<label for="email">Correo electronico</label>
+				<input placeholder="mariar@ejemplo.com" id="email" type="email" name="email">
+			</div>
+			<div class="content-input">
+				<label for="tele">Numero de telefono</label>
+				<input placeholder="04*********" id="tele" type="tel" name="phone">
+			</div>
+		</div>
+	
+		<div class="btns">
+			<button type="submit">Registrar</button>
+			<button type="reset"> Limpiar</button>
+		</div>	  
+	</form>
+</div>
+</body>
+</html>
